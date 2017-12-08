@@ -1,7 +1,36 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KR_MobilData.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Service_Ip" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.63.64</Value>
+    </Setting>
+    <Setting Name="Service_Port" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50698</Value>
+    </Setting>
+    <Setting Name="DelayTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="SendStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ri</Value>
+    </Setting>
+    <Setting Name="Crypt" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CryptKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hxsoft++</Value>
+    </Setting>
+    <Setting Name="redis_flag" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="JkdSql" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SELECT JKD_ID, JKD_NAME, RMI_ID FROM yxjk_jkd where TYPES = 1 ORDER BY JKD_NAME</Value>
+    </Setting>
+    <Setting Name="OracleConnStr" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=211.138.87.146)(PORT=18091))(CONNECT_DATA=(SERVICE_NAME=hx)));Persist Security Info=True;User ID=hmcs;Password=hmcs</Value>
+    </Setting>
+    <Setting Name="DelayTime_Update" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">300000</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>
